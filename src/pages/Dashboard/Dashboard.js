@@ -326,41 +326,6 @@ function DashboardContent() {
                               backgroundColor: "gray",
                               padding: 10,
                               borderRadius: 5,
-                              marginTop: 20,
-                            }}
-                          >
-                            <text
-                              style={{
-                                alignSelf: "center",
-                                color: "white",
-                                fontWeight: 900,
-                                marginTop: 20,
-                              }}
-                            >
-                              Technology Readiness Levels
-                            </text>
-                          </div>
-                          <div style={{ marginTop: 5 }}>
-                            <text
-                              style={{
-                                color: "teal",
-                                fontSize: 16,
-                                // backgroundColor: "teal",
-                                fontWeight: 800,
-                                padding: 7,
-                                borderRadius: 40,
-                                marginTop: 5,
-                              }}
-                            >
-                              {products.user.trl.name}
-                            </text>{" "}
-                          </div>
-                          <div
-                            style={{
-                              alignSelf: "center",
-                              backgroundColor: "gray",
-                              padding: 10,
-                              borderRadius: 5,
                               marginTop: 10,
                             }}
                           >
@@ -428,6 +393,41 @@ function DashboardContent() {
                             >
                               {products.user.businessModels[3].name}
                             </text>
+                          </div>
+                          <div
+                            style={{
+                              alignSelf: "center",
+                              backgroundColor: "gray",
+                              padding: 10,
+                              borderRadius: 5,
+                              marginTop: 20,
+                            }}
+                          >
+                            <text
+                              style={{
+                                alignSelf: "center",
+                                color: "white",
+                                fontWeight: 900,
+                                marginTop: 20,
+                              }}
+                            >
+                              Technology Readiness Levels
+                            </text>
+                          </div>
+                          <div style={{ marginTop: 5 }}>
+                            <text
+                              style={{
+                                color: "teal",
+                                fontSize: 16,
+                                // backgroundColor: "teal",
+                                fontWeight: 800,
+                                padding: 7,
+                                borderRadius: 40,
+                                marginTop: 5,
+                              }}
+                            >
+                              {products.user.trl.name}
+                            </text>{" "}
                           </div>
                         </div>
                       </TabPanel>
